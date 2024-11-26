@@ -1,0 +1,199 @@
+/* My 2 Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+h2 {
+    font-size: 70px;
+}
+  
+p, a {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #744E2E;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 600;
+}
+
+#home {
+    background: url(../images/dubai_header.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+.landing-text h3 {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-text h1 {
+        font-size: 60px;
+    }
+
+    .landing-text h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #attractions_home .landing-text h1 {
+        font-size: 50px;
+    }
+}
+
+#intro .p1 {
+    text-align: center; 
+    font-size: 24px; 
+    color: #744e2e;
+}
+
+#intro hr {
+    width: 10%; 
+    margin: 0 auto; 
+    border-top: 3px solid #744e2e;
+}
+
+#intro .img-semi-circle {
+    border-radius: 3%;
+}
+
+#thingsToDo {
+    background-color: #744e2e;
+}
+
+#thingsToDo h2 {
+    font-size: 60px; 
+    color: white;
+}
+
+#thingsToDo hr {
+    width: 10%; 
+    margin: 0 auto; 
+    border-top: 3px solid white;
+}
+
+#thingsToDo .img-semi-circle {
+    border-radius: 3%;
+}
+
+#thingsToDo .p1 {
+    color: white; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: 600;
+}
+
+#thingsToDo .p2 {
+    color: white; 
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 60px; 
+    color: #744e2e;
+}
+
+#gallery hr {
+    width: 10%; 
+    margin: 0 auto; 
+    border-top: 3px solid #744e2e;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+}
+
+#footer {
+    background-color: #744E2E;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#footer .p1 {
+    font-weight: 600;
+}
+
+#geography_home {
+    background: url(../images/dubai_desert_sunset.jpg) no-repeat center bottom fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#people_home {
+    background: url(../images/dubai_people.jpg) no-repeat center bottom fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#economy_home {
+    background: url(../images/dubai_highway.png) no-repeat center bottom fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#attractions_home {
+    background: url(../images/dubai_high_rise.jpg) no-repeat center bottom fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#reference_home {
+    background: url(../images/dubai_getting_dark.jpg) no-repeat center bottom fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.a-link {
+    color: #744E2E;
+}
