@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lobster&family=Oleo+Script:wght@400;700&family=Rampart+One&display=swap');
+
+header{
+    background-image: url("../images/headerphoto.jpg");  
+    background-attachment: fixed; 
+    background-size: contain;
+    font-family: "Lobster", sans-serif;
+}
+
+.customHeight{
+    height: 50vh;
+}
+
+body{
+    background-image: url("../images/bodyphoto.jpg");  
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+h1{
+    background-color: rgb(142, 68, 18);
+    text-align: center;
+    padding: 25px;
+    opacity: 75%;
+    font-size: 65px;
+}
+
+.heading{
+    color: rgb(142, 68, 18);
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    color: rgb(142, 68, 18);
+    text-align: center;
+    font-size: large;
+}
+
+#output{
+    background-color: rgb(142, 68, 18);
+    text-align: center;
+    opacity: 75%;
+}
+
+label{
+    color: rgb(142, 68, 18);
+}
+
+footer{
+    background-color: burlywood;
+    opacity: 90%;
+}
+
+
+.btn-outline-danger{
+    border-color: chocolate;
+    color: brown;
+}
+
+.btn-outline-danger:hover{
+   background-color: rgb(179, 93, 8);
+}
